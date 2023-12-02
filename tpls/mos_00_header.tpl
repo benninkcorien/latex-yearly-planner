@@ -4,17 +4,16 @@
 \medskip%
 \myLineThick%
 \marginnote{%
-  \rotatebox[origin=tr]{90}{%
+  \rotatebox[origin=tl]{90}{%
     \renewcommand{\arraystretch}{2}%
-    \begin{tabularx}{\myLenHeaderSideMonthsWidth}{*{11}{Y|}Y}
+    \begin{tabularx}{\myLenHeaderSideMonthsWidth}{|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|Y|}
       \hline
       {{range $i, $month := .Body.SideMonths -}}
       {{$month.Display}} {{if ne $i 11}}
       & {{else}} \\{{- $.Cfg.Layout.Lengths.HeaderSideCellHeight -}} \hline {{end}}
     {{end}}
-    \end{tabularx}%
-    \quad%
-    \begin{tabularx}{\myLenHeaderSideQuartersWidth}{*{3}{Y|}Y}
+    \end{tabularx}% 
+    \begin{tabularx}{\myLenHeaderSideQuartersWidth}{|Y|Y|Y|Y|}
       \hline
       {{range $i, $quarter := .Body.SideQuarters -}}
       {{$quarter.Display}} {{if ne $i 3}}
@@ -23,4 +22,4 @@
     \end{tabularx}%
   }%
 }%
-\medskip
+\medskip%

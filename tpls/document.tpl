@@ -25,6 +25,8 @@
 \usepackage{multido}
 \usepackage{fontspec}
 
+\setmainfont{Open Sans Medium} 
+
 \hypersetup{
     {{- if not .Cfg.Debug.ShowLinks}}hidelinks=true{{end -}}
 }

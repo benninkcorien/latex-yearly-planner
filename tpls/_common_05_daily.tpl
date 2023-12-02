@@ -1,5 +1,5 @@
 {{- $today := .Body.Day -}}
-
+\medskip%
 \begin{minipage}[t]{\myLenTriCol}
 {{template "schedule.tpl" dict "Cfg" .Cfg "Day" .Body.Day}}
   \vspace{\dimexpr4mm+.3pt}

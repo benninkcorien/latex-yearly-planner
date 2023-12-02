@@ -1,4 +1,4 @@
-cleartoprightcorner: true
+cleartoprightcorner: false
 
 layout:
   paper:
@@ -11,7 +11,7 @@ layout:
 
     margin:
       top: .3cm
-      bottom: 0.6cm
+      bottom: 1.0cm
       left: 1.4cm
       right: 0.3cm
 

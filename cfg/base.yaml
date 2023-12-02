@@ -1,6 +1,6 @@
 weekstart: 1
 ampmtime: false
-dotted: true
+dotted: false
 calafterschedule: false
 icaldata : true
 addlasthalfhour: true
@@ -10,7 +10,7 @@ layout:
     width: 15.6cm
     height: 20.9cm
 
-    marginparwidth: 0.5cm
+    marginparwidth: 1cm
     marginparsep: 0cm
     reversemargins: true
 
@@ -18,7 +18,7 @@ layout:
       top: 1.2cm
       bottom: 0.7cm
       left: 0.5cm
-      right: 0.4cm
+      right: 0.5cm
 
   numbers:
     arraystretch: 1.5
@@ -31,7 +31,7 @@ layout:
     dailytophour: 22
     dailydiarygoals: 10
     dailydiarygrateful: 4
-    dailydiarybest: 0
+    dailydiarybest: 4
     dailydiarylog: 28
     todolinesintodopage: 10
     notesindexpages: 3
