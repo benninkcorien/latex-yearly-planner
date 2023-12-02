@@ -21,6 +21,11 @@ This generates all .tex files
 
 > cd out
 > pdflatex rm2.mos.default.dailycal.tex
+>
+
+! FOR PRETTY FONTS add 
+
+> xelatex rm2.mos.default.dailycal.tex
 
 This generates the PDF file in /out
 

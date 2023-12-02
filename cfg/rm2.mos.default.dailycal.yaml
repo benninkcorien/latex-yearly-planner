@@ -1,4 +1,5 @@
-calafterschedule: true
+calafterschedule: false
+icaldata: true
 
 layout:
   numbers:

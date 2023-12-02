@@ -1,8 +1,13 @@
 {%
+
 {{ if not .Large -}} \renewcommand{\arraystretch}{\myNumArrayStretch}% {{- end}}
 \setlength{\tabcolsep}{\myLenTabColSep}%
 %
-HELLO \\
+
+\begingroup
+\newfontfamily\myfont{Comic Sans MS}
+\myfont\fontsize{12pt}{14pt} Hello \\
+\endgroup
 
 {{- $today := $.Today -}}
  

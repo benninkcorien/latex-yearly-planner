@@ -10,7 +10,7 @@ layout:
     width: 15.6cm
     height: 20.9cm
 
-    marginparwidth: 1cm
+    marginparwidth: 0.5cm
     marginparsep: 0cm
     reversemargins: true
 
@@ -18,7 +18,7 @@ layout:
       top: 1.2cm
       bottom: 0.7cm
       left: 0.5cm
-      right: 0.5cm
+      right: 0.4cm
 
   numbers:
     arraystretch: 1.5
@@ -27,12 +27,12 @@ layout:
     dailytodos: 8
     dailynotes: 25
     dailypersonal: 6
-    dailybottomhour: 7
-    dailytophour: 23
+    dailybottomhour: 8
+    dailytophour: 22
     dailydiarygoals: 10
     dailydiarygrateful: 4
-    dailydiarybest: 4
-    dailydiarylog: 24
+    dailydiarybest: 0
+    dailydiarylog: 28
     todolinesintodopage: 10
     notesindexpages: 3
     notesonpage: 35
