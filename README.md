@@ -21,10 +21,16 @@ This generates all .tex files
 
 > cd out
 > pdflatex rm2.mos.default.dailycal.tex
->
+ 
 
-! FOR PRETTY FONTS add 
+! If you want to use custom fonts, add the fontspec package to tpls/document.tpl and set a main font to use
 
+    \usepackage{multido} #this is the current existing last package in the list
+    \usepackage{fontspec}
+
+    \setmainfont{Open Sans Medium} 
+
+Then use xelatex to compile instead of pdflatex
 > xelatex rm2.mos.default.dailycal.tex
 
 This generates the PDF file in /out
