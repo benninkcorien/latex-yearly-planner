@@ -17,11 +17,9 @@ Fork of [Latex Yearly Planner](https://github.com/kudrykv/latex-yearly-planner/)
 
 > go run cmd/plannergen/plannergen.go --config "cfg/base.yaml,cfg/rm2.base.yaml,cfg/template_months_on_side.yaml,cfg/rm2.mos.default.yaml,cfg/rm2.mos.default.dailycal.yaml"
 
-This generates all .tex files
+This generates all .tex files for Remarkable/Boox format with the months on the side. Instead of the daily calendar I have a line that says "Important Events Today" in a custom font ( KievitOT-Medium)..
 
 > cd out
-> pdflatex rm2.mos.default.dailycal.tex
- 
 
 ! If you want to use custom fonts, add the fontspec package to tpls/document.tpl and set a main font to use
 
@@ -32,8 +30,8 @@ This generates all .tex files
 
 Then use xelatex to compile instead of pdflatex
 > xelatex rm2.mos.default.dailycal.tex
-
-This generates the PDF file in /out
+ 
+This generates the PDF file in /out (I'll copy a few to 00generatedplanners)
 
 ## Official instructions
 
@@ -45,3 +43,8 @@ From the project directory, run the following command after updating
   ./single.sh
 
 [Source](https://github.com/kudrykv/latex-yearly-planner/discussions/34#discussioncomment-3128344)
+
+
+## ToDO
+
+- figure out how to read a local iCal .ics  file and add "all day" events (like birthdays) to the daily views.
