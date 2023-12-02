@@ -4,9 +4,10 @@
 \setlength{\tabcolsep}{\myLenTabColSep}%
 %
 
+\begin{minipage}{6cm}
 \begingroup
-\newfontfamily\myfont{Comic Sans MS}
-\myfont\fontsize{12pt}{14pt} Hello \\
+\newfontfamily\myfont{KievitOT-Medium}
+\myfont\fontsize{12pt}{14pt} Important Events Today \\
 \endgroup
 
 {{- $today := $.Today -}}
@@ -36,5 +37,6 @@
     {{- end }}
 {{- end }}
 
- 
+\end{minipage}
+
 }
