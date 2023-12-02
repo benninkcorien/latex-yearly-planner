@@ -33,17 +33,6 @@ Then use xelatex to compile instead of pdflatex
  
 This generates the PDF file in /out (I'll copy a few to 00generatedplanners)
 
-## Official instructions
-
-From the project directory, run the following command after updating
-'PLANNER_YEAR' below. This should generate the PDF in the 'out' directory.
-
-> PLANNER_YEAR=2022 \   PASSES=2 \   CFG="cfg/rm2.mos.default.yaml,cfg/rm2.mos.default.dailycal.yaml,cfg/rm2.mos.default.dailycal.yaml" \
-  NAME="MyPlanner" \
-  ./single.sh
-
-[Source](https://github.com/kudrykv/latex-yearly-planner/discussions/34#discussioncomment-3128344)
-
 
 ## ToDO
 
