@@ -1,4 +1,5 @@
-\begin{minipage}[t][10cm]{\linewidth}  
+\begin{minipage}[t][1cm]{\linewidth}  
+  \medskip
   \begin{tabularx}{\linewidth}{l|X}
     \arrayrulecolor{\myColorGray}
     {{ range $note := .Body.Notes }}
