@@ -2,6 +2,7 @@ weekstart: 1
 ampmtime: false
 dotted: true
 calafterschedule: false
+icaldata : true
 addlasthalfhour: true
 
 layout:

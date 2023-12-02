@@ -7,6 +7,11 @@
 {{- if .Cfg.CalAfterSchedule -}}
 {{- template "monthTabularV2.tpl" dict "Month" .Body.Month "Today" $today -}}
 {{- end -}}
+
+{{- if .Cfg.IcalData -}}
+{{- template "icaldata.tpl" dict "EventMap" .readICSFile "Today" $today -}}
+{{- end -}}
+
 \end{minipage}%
 \hspace{\myLenTriColSep}%
 \begin{minipage}[t]{\dimexpr2\myLenTriCol+\myLenTriColSep}
