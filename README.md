@@ -33,6 +33,7 @@ Then use xelatex to compile instead of pdflatex
  
 This generates the PDF file in /out (I'll copy a few to 00generatedplanners)
 
+![](examples/pictures/customplanner/sans-serif-mos-dates-booxrm.png)
 
 ## ToDO
 
