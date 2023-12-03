@@ -36,7 +36,10 @@ for _ in "${_passes[@]}"; do
     "out/${nakedname}.tex"
 done
 
-if [ -n "${NAME}" ]; then
+if [ -z "$PREVIEW" ]; then
+  cp "out/${nakedname}-preview.pdf" "${NAME}-preview.pdf"
+  echo "created ${NAME}-preview.pdf"
+elif [ -n "${NAME}" ]; then
   cp "out/${nakedname}.pdf" "${NAME}.pdf"
   echo "created ${NAME}.pdf"
 else

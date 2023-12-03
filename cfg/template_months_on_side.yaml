@@ -5,6 +5,12 @@ pages:
         tpls:
           - title.tpl
 
+  - name: theindex
+    renderblocks:
+      - funcname: theindex
+        tpls:
+          - theindex.tpl
+
   - name: annual
     renderblocks:
       - funcname: annual

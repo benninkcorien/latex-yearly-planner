@@ -14,6 +14,7 @@
     {{end}}
     \end{tabularx}% 
     \begin{tabularx}{\myLenHeaderSideQuartersWidth}{|Y|Y|Y|Y|}
+      
       \hline
       {{range $i, $quarter := .Body.SideQuarters -}}
       {{$quarter.Display}} {{if ne $i 3}}
