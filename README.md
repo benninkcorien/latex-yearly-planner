@@ -38,7 +38,7 @@ This generates the PDF file in /out (I'll copy a few to 00generatedplanners)
 ## ToDO
 
 - figure out how to read a local iCal .ics  file and add "all day" events (like birthdays) to the daily views as a list under "Important Events Today"
-
+- Figure out where I entered an extra \pagebreak or something that makes the whole daily page jump to the next page..
 
 ## Add an extra page.
 
