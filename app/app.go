@@ -132,16 +132,17 @@ func RootFilename(pathconfig string) string {
 type Composer func(cfg config.Config, tpls []string) (page.Modules, error)
 
 var ComposerMap = map[string]Composer{
-	"theindex":      compose.TheIndex,
-	"title":         compose.Title,
-	"annual":        compose.Annual,
-	"quarterly":     compose.Quarterly,
-	"monthly":       compose.Monthly,
-	"weekly":        compose.Weekly,
-	"daily":         compose.Daily,
-	"daily_reflect": compose.DailyReflect,
-	"daily_notes":   compose.DailyNotes,
-	"notes_indexed": compose.NotesIndexed,
+	"theindex":        compose.TheIndex,
+	"title":           compose.Title,
+	"annual":          compose.Annual,
+	"quarterly":       compose.Quarterly,
+	"monthly":         compose.Monthly,
+	"weekly":          compose.Weekly,
+	"daily":           compose.Daily,
+	"daily_reflect":   compose.DailyReflect,
+	"daily_notes":     compose.DailyNotes,
+	"notes_indexed":   compose.NotesIndexed,
+	"thehabittracker": compose.HabitTracker,
 }
 
 func filterUniqueModules(array []page.Module) []page.Module {

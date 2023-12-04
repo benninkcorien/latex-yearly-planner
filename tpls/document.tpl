@@ -3,29 +3,33 @@
 \usepackage{geometry}
 \usepackage[table]{xcolor}
 {{if $.Cfg.Debug.ShowFrame}}\usepackage{showframe}{{end}}
-\usepackage{calc}
-\usepackage{dashrule}
-\usepackage{setspace}
+\usepackage{adjustbox}
+\usepackage{amssymb}
 \usepackage{array}
+\usepackage{blindtext}
+\usepackage{calc}
+\usepackage{colortbl}
+\usepackage{dashrule}
+\usepackage{expl3}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{leading}
+\usepackage{makecell}
+\usepackage{marginnote}
+\usepackage{multido}
+\usepackage{multirow}
+\usepackage{pgffor}
+\usepackage{setspace}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
 \usepackage{tikz}
 \usepackage{varwidth}
-\usepackage{blindtext}
-\usepackage{tabularx}
 \usepackage{wrapfig}
-\usepackage{makecell}
-\usepackage{graphicx}
-\usepackage{multirow}
-\usepackage{amssymb}
-\usepackage{expl3}
-\usepackage{leading}
-\usepackage{pgffor}
-\usepackage{hyperref}
-\usepackage{marginnote}
-\usepackage{adjustbox}
-\usepackage{multido}
-\usepackage{fontspec}
 
 \setmainfont{Open Sans Medium} 
+\definecolor{mediumGray}{gray}{0.6}
+\definecolor{whiteColor}{rgb}{1,1,1}
 
 \hypersetup{
     {{- if not .Cfg.Debug.ShowLinks}}hidelinks=true{{end -}}

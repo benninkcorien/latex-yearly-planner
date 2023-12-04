@@ -38,3 +38,11 @@ This generates the PDF file in /out (I'll copy a few to 00generatedplanners)
 ## ToDO
 
 - figure out how to read a local iCal .ics  file and add "all day" events (like birthdays) to the daily views as a list under "Important Events Today"
+
+
+## Add an extra page.
+
+app.go add to the compose list
+compose / add name.go
+template_breadcrumbs and months_on_side add name
+tpls add name.tpl

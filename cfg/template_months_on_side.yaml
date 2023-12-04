@@ -59,3 +59,10 @@ pages:
         tpls:
           - mos_08_notes_index.tpl
           - mos_09_notes.tpl
+  
+  - name: thehabittracker
+    renderblocks:
+      - funcname: thehabittracker
+        tpls:
+          - thehabittracker.tpl
+          
